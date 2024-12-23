@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+/* styles.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header {
+    padding: 20px; /* เพิ่มช่องว่างรอบๆ */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .IconGrid, .LogoGrid, .BlankGrid, .SearchGrid, .OtherGrid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* ขนาดของกริดแต่ละตัว */
+  .IconGrid {
+    background-color: #f8f9fa; /* ตัวอย่างสีพื้นหลัง */
+    width: 60px;
+    height: 100px; /* ขนาดเล็กสุด */
   }
-}
+  
+  .LogoGrid {
+    background-color: #e9ecef; /* ตัวอย่างสีพื้นหลัง */
+    min-width: 60px; /* ขนาดที่แตกต่างกัน */
+  }
+  
+  .BlankGrid {
+    background-color: #ffffff; /* ตัวอย่างสีพื้นหลัง */
+    min-width: 50px; /* ขนาดที่แตกต่างกัน */
+  }
+  
+  .SearchGrid {
+    background-color: #f1f3f5; /* ตัวอย่างสีพื้นหลัง */
+    min-width: 80px; /* ขนาดที่แตกต่างกัน */
+  }
+  
+  .OtherGrid {
+    background-color: #e9ecef; /* ตัวอย่างสีพื้นหลัง */
+    min-width: 70px; /* ขนาดที่แตกต่างกัน */
+  }
+  
+
+
+  
